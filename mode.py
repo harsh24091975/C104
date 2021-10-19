@@ -1,5 +1,4 @@
-# Python program to print
-# mode of elements
+
 from collections import Counter
 import csv
 
@@ -16,7 +15,7 @@ for i in range(len(file_data)):
 
 
 
-#Calculating Mode
+
 data = Counter(new_data)
 mode_data_for_range = {
                         "50-60": 0,
